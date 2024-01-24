@@ -18,9 +18,9 @@ The skipList structure represents the Skip List itself, including methods for se
 
 ### Compilation
 Compile the project using a C++ compiler. For example, using g++:
-'''
+```
 g++ main.cpp -o skip_list
-'''
+```
 ### Usage
 Include the necessary header files: <iostream>, <cstdlib>, <cmath>, <cstring>.
 Define the maximum level of the Skip List (MAX_LEVEL) and the probability constant (P).
@@ -28,7 +28,7 @@ Create a skipList instance to start using the data structure.
 Use the insert, delete_node, search, and display methods to manipulate and view the Skip List.
 
 ### Example
-'''
+```
 #include <iostream>
 #include <cstdlib>
 #include <cmath>
@@ -55,4 +55,4 @@ int main()
     skiplist1.display();
     return 0;
 }
-'''
+```
